@@ -1,10 +1,16 @@
+@font-face {
+    font-family: grandesign;
+    src: url(../res/grandesign_neue_serif_regular/Grandesign_Neue_Serif.ttf);
+    font-weight:400;
+}
+
 body{
 	background:#949494 url(../img/bg-body.png);
 	font-family: Arial, Helvetica, sans-serif, Tahoma, Verdana;
 }
 
 h1,h2,h3,h4,h5,h6{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: granddesign;
 }
 
 .container{
@@ -190,12 +196,11 @@ width:5%;
 	
 }
 
+/* block de text sur la pga d'accueil*/
 #home-page{
 	background:url(../img/bg-glow.gif) top no-repeat;
 	padding:50px 0px 20px 0px;
 	margin-bottom:30px;
-    max-height:250px;
-    overflow:hidden;
 }
 
 #home-page h2{
@@ -223,6 +228,16 @@ width:5%;
 	
 }
 
+
+
+#home-page .span5{
+    margin-bottom:20px;
+}
+
+#home-page .span5  p{
+  height:100px;
+  overflow:hidden;
+}
 
 /*
  * Footer
