@@ -80,6 +80,7 @@ input[type="reset"],
 input[type="submit"] {
   cursor: pointer;
   -webkit-appearance: button;
+  margin-top: 9px;
 }
 input[type="search"] {
   -webkit-appearance: textfield;
@@ -528,6 +529,7 @@ textarea {
 label {
   display: block;
   margin-bottom: 5px;
+  margin-top: 9px; /*Ajout d'un margin top pour palier à la désactivation du margin-bottom des input*/
   color: #333333;
 }
 input,
@@ -535,10 +537,10 @@ textarea,
 select,
 .uneditable-input {
   display: inline-block;
-  width: 210px;
+  width: 406px;
   height: 18px;
   padding: 4px;
-  margin-bottom: 9px;
+  /*margin-bottom: 9px; Désactivé pour permetre au message d'erreur de se caler juste en dessous*/
   font-size: 13px;
   line-height: 18px;
   color: #555555;
@@ -547,6 +549,12 @@ select,
   -moz-border-radius: 3px;
   border-radius: 3px;
 }
+
+.error
+{
+	color: red;
+}
+
 .uneditable-textarea {
   width: auto;
   height: auto;
