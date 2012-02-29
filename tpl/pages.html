@@ -13,12 +13,16 @@
 
         <link rel="stylesheet" href="assets/templates/ct/css/bootstrap.css" />
         <link rel="stylesheet" href="assets/templates/ct/css/styleTIC.css" />
+        <link href='http://fonts.googleapis.com/css?family=Arvo:400,400italic' rel='stylesheet' type='text/css'>
         <!--[if lt IE 9]>
         <script src="assets/templates/ct/js/html5.js"></script>
         <![endif]-->
         <script type="text/javascript">
             $('.myCarousel').carousel()
         </script>
+        <!-- Fichiers complÃ©mentaires -->
+        [[*CT-HeaderOtherComponents]]
+        <!-- ------------------------ -->
     </head>
     <body>
         <div class="container">
@@ -34,7 +38,7 @@
                             <!-- INSCRIPTION A LA NEWLETTER -->
                             <div class="row-fluid news">
                                 <form class="well form-inline pull-right">
-                                <label for="">Inscrire mon E-mail à la Newsletter</label>
+                                <label for="">Inscrire mon E-mail Ã  la Newsletter</label>
                                 <input type="text" class="input-small" value="Email">
                                 <button type="submit" class="btn btn-default">Envoyer</button>
                                 </form>
@@ -44,6 +48,7 @@
                             <div class="row-fluid">
                                 <div class="navbar-inner">
                                     [[Wayfinder?startId=`0` 
+                                               &level=`1`
                                                &hereClass=current 
                                                &outerClass=`nav pull-right`]]
                                     <!--<ul class="nav pull-right">
@@ -62,10 +67,10 @@
                 <div class="row-fluid">
                     <div class="span8">
                         
-                        <h1 class="title-page">[[*pagetitle]]</h1>
-                        <h2 class="desc_title">[[*longtitle]]</h3>
+                        <h1 class="title_page">[[*pagetitle]]</h1>
+                        <h2 class="desc_title">[[*longtitle]]</h2>
+                        <p class="italic-text">[[*introtext]]</p>
                         [[*content]]
-                        
                     </div>
                     <div class="span4">
                         [[$CT-Sidebar]]
@@ -78,13 +83,11 @@
 				<footer class="row-fluid">
 					<div class="span12 foot_area">
 						<a href=""><img src="assets/templates/ct/img/logo-centre-tic-footer.png" alt="" /></a>
-						<p>Copyright © 2011 Centre&TIC. Tous droits réservés</p>
+						<p>Copyright Â© 2011 Centre&TIC. Tous droits rÃ©servÃ©s</p>
 					</div>
 				</footer>
 			</div>
 			<div class="bottom"></div>
 		</div>
-
-
 	</body>
 </html>    
