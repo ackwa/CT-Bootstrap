@@ -566,3 +566,7 @@ ul.number_list p {
     float: left;
     line-height: 38px;
 }
+
+.navbar .nav.pull-right {
+    margin-right: 15px;
+}
