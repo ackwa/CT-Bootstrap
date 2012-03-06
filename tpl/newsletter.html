@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Newsletter de Centre & TIC - News & TIC - 2</title>
+<style type="text/css">
+a:hover { color: #93b604 !important; text-decoration: underline !important; }
+a:hover#vw { background-color: #CCC !important; text-decoration: none !important; color:#000 !important; }
+a:hover#ff { background-color: #93b604 !important; text-decoration: underline !important; color:#FFF !important; }
+a:hover#fb { background-color: #3B5998 !important; text-decoration: underline !important; color:#FFF !important; }
+a:hover#tw { background-color: #2299CC !important; text-decoration: underline !important; color:#FFF !important; }
+.intro p   {font-size: 17px; line-height: 20px; font-family: Georgia, 'Times New Roman', Times, serif; color: #333; margin: 10px 0 10px 0;text-align:justify;}
+.intro ul  {font-size: 17px; line-height: 20px; font-family: Georgia, 'Times New Roman', Times, serif; color: #333; margin: 10px 0 10px 0;}
+.intro a   {color: #93b604;}
+.intro li  {margin: 10px 0 10px 0;}
+</style>
+</head>
+<body marginheight="0" topmargin="0" marginwidth="0" style="margin: 0px; background-color: #FFFFFF;" bgcolor="#FFFFFF" leftmargin="0">
+<!--100% body table-->
+<div>
+     <!--email container-->
+     <div style="width:624px; margin: auto;">
+          <!--header-->
+          <div style="width:624px;">
+               <img src="assets/templates/ct/img/spacer-top.jpg" height="12" width="624" />
+               <!--top links-->
+               <div style="font-size: 12px; font-family: Helvetica, Arial, sans-serif; color: #333; margin: 0px;">
+                    <span style="width:230px;float:left;">L'e-mail ne s'affiche pas correctement ?</span>
+                    <span style="width:245px;float:left;"><a href="*|ARCHIVE|*" id="vw" style="padding: 5px; -webkit-border-radius: 3px; font-weight: bold; text-decoration: none; color: #333; -khtml-border-radius: 3px; background: #e9e8e8; -moz-border-radius: 3px; border-radius: 3px;">Le voir dans un navigateur web</a></span>
+                    <span style="width:135px;float:left;"><a href="*|FORWARD|*" id="ff" style="padding: 5px; -webkit-border-radius: 3px; font-weight: bold; text-decoration: none; color: #FFF; -khtml-border-radius: 3px; background: #93b604; -moz-border-radius: 3px; border-radius: 3px;">Envoyer &agrave; un contact</a></span>
+               </div>
+               <!--/top links-->
+               <!--line break-->
+               <img src="assets/templates/ct/img/line-break.jpg" height="10" width="624" />
+               <!--/line break-->
+               <!--header content-->
+               <div style="width:624px;">
+                    <div style="float:left;">
+                         <h1 style="color: #333; margin: 0px; font-weight: normal; font-size: 60px; font-family: Helvetica, Arial, sans-serif;">News & TIC</h1>
+                         <h2 style="color: #333; margin: 0px; font-weight: normal; font-size: 30px; font-family: Helvetica, Arial, sans-serif;">//Lettre d'information [[*CT-IdNewsletter]]</h2>
+                    </div>
+                    <a href="http://www.centre-tic.com/"><img src="assets/templates/ct/img/centre-tic-logo.jpg" alt="Logo CT" style="float:right;"/></a>
+               </div>
+               <!--/header content-->
+		  </div>
+          <!--/header-->
+          <!--line break-->
+          <img src="assets/templates/ct/img/line-break-2.jpg" height="13" width="624" />
+          <!--/line break-->
+          <!--email content-->
+          <div style="width:624px;">
+               <!--section 1-->
+               <div style="width:624px">
+               <p style="font-size: 17px; line-height: 24px; font-family: Georgia, 'Times New Roman', Times, serif; color: #333; margin: 0px;"><img src="[[*CT-ImagePrincipaleNewsletter]]" height="337" alt="La page Membres du site de Centre & TIC" style="border: solid 1px #FFF; box-shadow: 2px 2px 6px #333; -webkit-box-shadow: 2px 2px 6px #333; -khtml-box-shadow: 2px 2px 6px #333; -moz-box-shadow: 2px 2px 6px #333;" width="622" /></p>
+               <img src="assets/templates/ct/img/spacer-ten.jpg" height="10" width="624" />
+               <h2 style="font-size: 36px; font-family: Helvetica, Arial, sans-serif; color: #333 !important; margin: 0px;">Edito</h2>
+                   <div class="intro">
+                        <p>
+                            [[*CT-EditoNewsletter]]
+                       </p>
+                   </div>
+          </div>
+               <!--/section 1-->
+               <!--line break-->
+               <img src="assets/templates/ct/img/line-break-2.jpg" height="13" width="624" />
+               <!--/line break-->
+               <!--section 2-->
+               <div style="width:624px">
+               <h3 style="font-size: 24px; font-family: Helvetica, Arial, sans-serif; color: #333 !important; margin: 0px;">L'actu des membres</h3>
+               <img src="assets/templates/ct/img/line-break.jpg" height="10" width="624" />
+               <div style="margin:auto;">
+                    [[!getImageList?
+                        &tvname=`CT-ArticlesNewsletter`
+                        &tpl=`CT-ArticleNewsletterTpl`
+                        &docid=`[[*id]]`]]
+               </div>
+          </div>
+               <!--/section 2-->
+               [[*CT-ContenuPrincipalNewsletter:isnot=``:then=`<!--line break-->
+               <img src="assets/templates/ct/img/line-break-2.jpg" height="13" width="624" />
+               <!--line break-->`]]
+               <h2 style="font-size: 24px; font-family: Helvetica, Arial, sans-serif; color: #333 !important; margin: 0px;">[[*CT-TitreContenuPrincipalNewsletter]]</h2>
+               <div class="intro">
+               [[*CT-ContenuPrincipalNewsletter]]
+          </div>
+               <!--line break-->
+               <img src="assets/templates/ct/img/line-break-2.jpg" height="13" width="624" />
+               <!--/line break-->
+               <!--section 3-->
+               <div>
+                <div style="width:59%; float:left">
+                     <!--section 3ini-->
+                     <div>
+                          <h2 style="font-size: 24px; font-family: Helvetica, Arial, sans-serif; color: #333 !important; margin: 0px;">L'actualité pour les utilisateurs des TIC</h2>
+                          <img style="display:block; margin:0; padding:0;" src="assets/templates/ct/img/line-break-short.jpg">
+                         [[!getImageList?
+                        &tvname=`CT-ActualitesTIC`
+                        &tpl=`CT-ActualiteTICTpl`
+                        &docid=`[[*id]]`]]
+                     </div>
+                     <!--/section 3ini-->
+                     <!--section 3bis-->
+                     <div>
+                          <h2 style="font-size: 24px; font-family: Helvetica, Arial, sans-serif; color: #333 !important; margin: 0px;">L'actualité pour les professionnels des TIC</h2>
+                          <img style="display:block; margin:0; padding:0;" src="assets/templates/ct/img/line-break-short.jpg">
+                          [[!getImageList?
+                        &tvname=`CT-ActualitesTICPro`
+                        &tpl=`CT-ActualiteTICTpl`
+                        &docid=`[[*id]]`]]
+                     </div>
+                     <!--/section 3bis-->
+                     <!--section 3ter-->
+                     <div>
+                          <h2 style="font-size: 24px; font-family: Helvetica, Arial, sans-serif; color: #333 !important; margin: 0px;">L'actualité pour l'enseignement et la recherche</h2>
+                          <img style="display:block; margin:0; padding:0;" src="assets/templates/ct/img/line-break-short.jpg">
+                          [[!getImageList?
+                        &tvname=`CT-ActualitesTICRecherche`
+                        &tpl=`CT-ActualiteTICTpl`
+                        &docid=`[[*id]]`]]
+                     </div>
+                     <!--/section 3ter-->
+                </div>
+                <div style="width:37%; float: right; margin: 5px;">
+                     <div style="background-color: #f4f4f4; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -khtml-border-radius: 4px; padding: 5px;">
+                          <h3 style="font-size: 18px; font-family: Helvetica, Arial, sans-serif; color: #333 !important; margin:0px;">Dates &agrave; retenir</h3>
+                          [[!getImageList?
+                        &tvname=`CT-DatesNewsletter`
+                        &tpl=`CT-DateNewsletterTpl`
+                        &docid=`[[*id]]`]]
+                     </div>
+                     [[*CT-ContenuEncartDroitNewsletter:isnot=``:then=`<img src="assets/templates/ct/img/line-break-3.jpg" width="220" height="15">`]]
+                     <h3 style="font-size: 18px; font-family: Helvetica, Arial, sans-serif; color: #333 !important; margin:0px;">[[*CT-TitreEncartDroitNewsletter]]</h3>
+                     [[*CT-ContenuEncartDroitNewsletter:isnot=``:then=`<img src="assets/templates/ct/img/line-break-4.jpg" width="222" height="18">`]]
+                     <p style="font-size: 17px; line-height: 18px; font-family: Georgia, 'Times New Roman', Times, serif; color: #333; margin: 0px;">
+                        [[*CT-ContenuEncartDroitNewsletter]]
+                     </p>
+                     <img src="assets/templates/ct/img/line-break-3.jpg" width="220" height="15">
+                     <h3 style="font-size: 18px; font-family: Helvetica, Arial, sans-serif; color: #333 !important; margin:0px;">Retrouvez-nous sur le net</h3>
+                     <img src="assets/templates/ct/img/line-break-4.jpg" width="222" height="18">
+                     <p>
+                        <ul style="font-size: 17px; line-height: 18px; font-family: Georgia, 'Times New Roman', Times, serif; color: #333; margin: 0px; list-style-type: none;">
+                           <li><a href="http://www.facebook.com/centre.tic" id="fb" style="float: left; width: 140px; background-color: #3B5998; text-decoration: none; padding: 5px; color: #FFF; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -khtml-border-radius: 4px;">Facebook »</a></li><li><a href="http://www.twitter.com/centre_tic" id="tw" style="float: left; width: 140px; background-color: #2299CC; text-decoration: none; padding: 5px; color: #FFF; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -khtml-border-radius: 4px; margin-top:10px;">Twitter »</a></li><li><a href="http://www.centre-tic.com" id="ff" style="float: left; width: 140px; background-color: #93b604; text-decoration: none; padding: 5px; color: #FFF; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -khtml-border-radius: 4px; margin-top:10px;">Site web »</a></li>
+                        </ul>
+				        <br />
+					    <br />
+					 </p>
+                     <img src="assets/templates/ct/img//line-break-3.jpg" width="220" height="15">
+                     <h3 style="font-size: 18px; font-family: Helvetica, Arial, sans-serif; color: #333 !important; margin:0px;">Les nouveaux adhérents</h3>
+                     <img src="assets/templates/ct/img/line-break-4.jpg" width="222" height="18">
+                     <p style="font-size: 17px; line-height: 18px; font-family: Georgia, 'Times New Roman', Times, serif; color: #333; margin: 0px;">
+[[*CT-EncartNouveauxAdherentsNewsletter]]</p>
+                     <img src="assets/templates/ct/img/line-break-3.jpg" width="220" height="15">
+                     <h3 style="font-size: 18px; font-family: Helvetica, Arial, sans-serif; color: #333 !important; margin:0px;">Envoyer &agrave; un contact</h3>
+                     <img src="assets/templates/ct/img/line-break-4.jpg" width="222" height="18">
+                     <p style="font-size: 17px; line-height: 18px; font-family: Georgia, 'Times New Roman', Times, serif; color: #333; margin: 0px;">Si vous pensez que cette newsletter peut-&ecirc;tre utile &agrave; l'un de vos contacts, n'h&eacute;sitez pas &agrave; lui envoyer en cliquant sur le bouton ci-dessous</p>
+                     <p>
+                         <a href="*|FORWARD|*" id="ff" style="float: left; width: 160px; background-color: #93b604; text-decoration: none; padding: 5px; color: #FFF; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -khtml-border-radius: 4px;">Envoyer &agrave; un contact »</a>
+                     </p>                                          
+                </div>
+          </div>
+               <!--/section 4-->
+               <!--line break-->
+               <img src="assets/templates/ct/img/line-break-2.jpg" height="13" width="624" />
+               <!--/line break-->
+               <!--footer-->
+               <div style="width:624px">
+               <p style="font-size: 17px; line-height: 24px; font-family: Georgia, 'Times New Roman', Times, serif; color: #333; margin: 0px;">
+                  Vous recevez cette newsletter, car ce que nous faisons devrait vous int&eacute;resser, enfin normalement... 
+                  Notre actualit&eacute; ne vous int&eacute;resse plus ?
+                  <a href="*|UNSUB|*" style="color: #93b604; text-decoration: none;">D&eacute;sinscrivez-vous.</a>
+                  <br />
+                  <br />
+                  Copyright &copy; 2012 Centre & TIC.
+                </p>
+                <p style="font-size: 17px; line-height: 24px; font-family: Georgia, 'Times New Roman', Times, serif; color: #333; margin: 0px;"><img src="assets/templates/ct/img/spacer-ten.jpg" height="10" width="624" /></p>
+          </div>
+               <!--/footer-->
+          </div>
+          <!--/email content-->
+     </div>
+     <!--/email container-->
+</div>
+<!--/100% body table-->
+</body>
+</html>
